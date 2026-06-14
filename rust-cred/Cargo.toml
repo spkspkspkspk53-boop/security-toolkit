@@ -1,0 +1,10 @@
+[package]
+name = "cred-tester"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+ssh2 = "0.9"
+reqwest = { version = "0.11", features = ["json"] }
+rand = "0.8"
